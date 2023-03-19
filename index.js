@@ -1,7 +1,7 @@
 const express=require('express');
 const mongoose=require('mongoose');
 require('dotenv').config();
-const app=require('./app');
+const app=require('./src/app');
 const port=process.env.port || 5000;
 
 mongoose.set('strictQuery', false); 
