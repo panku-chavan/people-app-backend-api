@@ -1,10 +1,10 @@
 {
-  "name": "people-app-backend",
+  "name": "people-app-backend-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "engines": {
-    "node":"14.X"
+    "node":"18.X"
   },
   "scripts": {
     "start": "node src/index.js",
